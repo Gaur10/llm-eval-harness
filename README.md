@@ -80,23 +80,4 @@ llm-eval-harness/
 
 ## System Overview
 
-flowchart TD
-
-subgraph USER["👤 User"]
-  A1["Provide Prompt Dataset (JSON/CSV)"]
-  A2["Run Evaluation via CLI or Dashboard"]
-end
-
-subgraph APP["🧠 LLM Evaluation Harness"]
-  B1["Model Runner (Ollama / HuggingFace)"]
-  B2["Evaluation Engine (DeepEval / Ragas)"]
-  B3["Metrics Aggregator"]
-end
-
-subgraph OUTPUT["📊 Results & Reports"]
-  C1["Metrics JSON/CSV"]
-  C2["Streamlit Dashboard"]
-  C3["Markdown / PDF Report"]
-end
-
-USER --> APP --> OUTPUT
+![System Overview](docs/llm-eval-overview.svg)

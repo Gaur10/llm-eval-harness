@@ -1,0 +1,60 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+pip-wheel-metadata/
+
+# ---- Dependency & Package Management ----
+uv.lock
+*.egg-info/
+*.whl
+
+# ---- IDE & Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- App Artifacts ----
+reports/
+logs/
+*.log
+*.tmp
+*.csv
+*.json
+*.pdf
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Test & Coverage ----
+.coverage
+htmlcov/
+pytest_cache/
+.cache/
+.tox/
+
+# ---- Misc ----
+# Ignore large datasets or models that might be added later
+data/*.zip
+data/*.tar.gz
+data/*.pkl
+models/*.bin
+models/*.pt
+models/*.safetensors

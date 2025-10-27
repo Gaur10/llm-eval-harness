@@ -1,0 +1,9 @@
+streamlit
+fastapi
+deepeval
+ragas
+ollama
+sentence-transformers
+pandas
+numpy
+pytest

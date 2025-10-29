@@ -32,13 +32,16 @@ uv.lock
 Thumbs.db
 
 # ---- App Artifacts ----
-reports/
 logs/
 *.log
 *.tmp
 *.csv
 *.json
 *.pdf
+
+# ---- Ignore generated evaluation reports ----
+reports/
+!reports/.gitkeep
 
 # ---- Streamlit ----
 .streamlit/
